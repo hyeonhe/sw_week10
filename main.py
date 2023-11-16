@@ -27,3 +27,11 @@ def 두_수의_합(숫자1, 숫자2):
 결과 = 두_수의_합(입력_숫자1, 입력_숫자2)
 print(f"두 수의 합: {결과}")
 
+def concatenate_strings(str1, str2):
+    return str1 + str2
+
+# 예제 사용
+string1 = "Hello, "
+string2 = "world!"
+concatenated_string = concatenate_strings(string1, string2)
+print(concatenated_string)
